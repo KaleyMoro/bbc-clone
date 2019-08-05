@@ -112,7 +112,6 @@
 		float: left;
 		}
 		#menuBar{
-		
 			width:1000px;
 			margin: 0 auto;
 			display: block;
@@ -124,11 +123,10 @@
 		}
 		
 		#localNews{
-		
-		font-size: 40px;
-		padding: 10px;
-		color: #FFFFFF;
-		text-decoration: none;
+			font-size: 40px;
+			padding: 10px;
+			color: #FFFFFF;
+			text-decoration: none;
 		}
 		
 		
@@ -136,6 +134,7 @@
 		    background-color: #A91717;
 			width: 100%;
 		}
+		
 		#menuBar2 {
 			width: 1000px;
 			margin: 0 auto;
@@ -149,7 +148,61 @@
 			font-size: 15px;
 			position: relative;
 			top: 10px;
-}
+		}
+		
+		h2 {
+			font-weight: normal;
+			margin-top: 40px;
+			font-size: 20px;
+			border-bottom: 2px solid #a91717;
+			width: 105px;
+		}
+		
+		#article-container{
+			float: left;
+			border-right:1px solid #CCCCCC;
+			width: 700px;
+			
+		}
+		#article-container a{
+			text-decoration: none;
+			color: #000000	
+		}
+		
+		h3{
+		font-size:30px;
+		}
+		
+		.article-hr{
+		width: 70px;
+		border: 1px solid #a91717;
+		
+		}
+		
+		.topic-link{
+			color: #a91717 !important;
+			border-left: 1px solid #CCCCCC;
+            padding-left: 10px;
+		}
+		
+		#article-summary{
+			width:260px;
+			float:left
+		}		
+		
+		.clock{
+		height: 12px;
+		}
+		
+		.date{
+		padding-right:10px;
+		}
+		
+		#page-container{
+		width:1000px;
+		margin: 0 auto;
+		}
+		
 		
 		</style>
 		</head>
@@ -197,7 +250,7 @@
 				<div id="menuBar">
 					<h1> News </h1>
 					<div id="local-news">
-						<a href id="localNews">Find local News</a>
+						<a href id="localNews">Find Local News</a>
 						<img src ="pointer.png">
 					</div>
 				</div>
@@ -218,9 +271,41 @@
 						<a href>More</a>
 						
 					</div>
+				
+				
 				<div>
 						
+				</div>
 			
+			
+			</div>
+			
+			<div id="page-container">
+				<div id="main-article">
+					<h2>Technology</h2>
+					<div id="article-container">
+						<h3><a href="#">Asda bug exposed payment details</a></h3>
+						<div id="article-summary">
+					
+							<p>Security vulnerabilities that put customers at risk have affected Asda's website for a couple of years, a security expert has revealed.</p>
+							<p>
+								<img src="clock.png" class="clock">
+								<span class="date">19 January, 2016</span>
+								<a class="topic-link" href="#">Technology</a>
+							</p>
+							<hr class="article-hr" align="left">
+							<p>
+								<a class="article-link" href="#">Survilance firm hit in hack attack</a>
+							</p>
+							<p>
+								<a class="article-link" href="#">e-bay flaw has existed for months</a>
+							</p>							
+						</div>
+						<img src="main-article-image.png" width="400px">
+					</div>
+				</div>
+				<div id="watch-listen"></div>
+				
 			</div>
 		
 		
