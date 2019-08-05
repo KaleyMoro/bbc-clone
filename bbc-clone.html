@@ -4,7 +4,14 @@
 		<title>BBC Clone</title>
 		<style type="text/css">
 		
-		#topbar {
+		body{
+		position: relative;
+		margin: 0;
+		padding: 0;
+
+		}
+		
+		.top-navbar {
 			width:1000px;
 			margin:0 auto;
 			height: 40px;            
@@ -96,7 +103,7 @@
 			background-color: #BB1919;
 			width: 100%;
 			height: 70px;
-			margin-top: 20px;
+			<!-- margin-top: 0px; -->
 			
 
 		}
@@ -105,13 +112,15 @@
 		float: left;
 		}
 		#menuBar{
-			
-		display: block;
+		
+			width:1000px;
+			margin: 0 auto;
+			display: block;
 		}	
 		
 		#local-news{
-		display: flex;
-		justify-content: flex-end;
+			display: flex;
+			justify-content: flex-end;
 		}
 		
 		#localNews{
@@ -121,6 +130,26 @@
 		color: #FFFFFF;
 		text-decoration: none;
 		}
+		
+		
+		#menuBarContainer{
+		    background-color: #A91717;
+			width: 100%;
+		}
+		#menuBar2 {
+			width: 1000px;
+			margin: 0 auto;
+			height: 40px;
+		}
+		#menuBar2 a {
+			color: white;
+			text-decoration: none;
+			padding: 0 10px;
+			border-right: 1px solid #BB4545;
+			font-size: 15px;
+			position: relative;
+			top: 10px;
+}
 		
 		</style>
 		</head>
@@ -172,6 +201,25 @@
 						<img src ="pointer.png">
 					</div>
 				</div>
+				
+				<div id="menuBarContainer">
+					<div id="menuBar2">
+						<a href>Home</a>
+						<a href>US</a>
+						<a href>World</a>
+						<a href>Business</a>
+						<a href>Politics</a>
+						<a href>Tech</a>
+						<a href>Science</a>
+						<a href>Health</a>
+						<a href>Education</a>
+						<a href>Entertainments</a>
+						<a href>Video and Audio</a>
+						<a href>More</a>
+						
+					</div>
+				<div>
+						
 			
 			</div>
 		
