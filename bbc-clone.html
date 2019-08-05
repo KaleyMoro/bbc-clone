@@ -1,89 +1,139 @@
-<!doctype html>
-<html>
-	<head>
-	<title>BBC Clone</title>
-	<style type="text/css">
-	
-	#topbar {
-		width:1000px;
-        margin:0 auto;
-        height: 40px;            
-    }
-	#signInDiv{
-		float: left;
-		margin-right: 9px;
+	<!doctype html>
+	<html>
+		<head>
+		<title>BBC Clone</title>
+		<style type="text/css">
 		
-	}
-	#signinimage {          
-    width:25px;
-	height: 25px;
-    margin:11px 15px ;
-    float:left;
-	}
-	
-	#bell{
-	float: left;
-	
-	}
-	#wigglyline{
-	float: left;
-	height:40px;
-	}
-	#bellimg{
-	
-	height: 25px;
-	width: 25px;
-	}
-	
-	#logo{
-		float:left;
-	}
-	
-	
-	.topbar-section{
-		float:left;
-		border-left:1px solid;
-	}
-	.topbar-menu{
-		padding: 13px 15px 0 15px;
-		height: 27px;
-	}
-	</style>
-	</head>
-	
-	<body>
-		<div class="top-navbar">
-			<img src="bbc-logo.png" alt="bbc-logo" id="logo">
-			<div id="signInDiv">
-				<img src="signinimage.png" alt="sign-inImage" id="signinimage">
-				<span id="SignInText">Sign In</span>
+		#topbar {
+			width:1000px;
+			margin:0 auto;
+			height: 40px;            
+		}
+		#signInDiv{
+			float: left;
+			margin-top: 5px;
+			margin-left: 10px;
+			margin-right: 9px;
+			width: 120px;
+			
+			
+		}
+		<!-- #signInDiv > span { -->
+		<!-- margin-top:40px; -->
+		<!-- } -->
+		
+		#SignInText{
+		margin: 10px ;
+		margin-right: -10px;
+		
+		}
+		
+		#signinimage {          
+			width:25px;
+			height: 25px;
+			margin-left: 15px;
+			margin-right: 10px;
+			padding-bottom: 10px;
+			float:left;
+		}
+		
+		
+		
+		#bell{
+		float: left;
+		margin-right: 10px;
+		
+		}
+		#wigglyline{
+		float: left;
+		height:40px;
+		}
+		#bellimg{
+		
+		height: 25px;
+		width: 25px;
+		margin-top: 10px;
+		margin-left: 5px;
+		}
+		
+		#logo{
+			float:left;
+			height: 35px;
+			width:100px;
+		}
+		
+		
+		.topbar-section{
+			float:left;
+			border-left:1px solid;
+		}
+		.topbar-menu{
+			padding: 13px 15px 0 15px;
+			height: 27px;
+		}
+		#search-box {
+			border:none;
+			background-color: #E4E4E4;
+			font-weight: bold;
+			font-size: 14px;
+			padding:5px;
+			margin: 5px 0 5px 5px;
+			
+			float:left;
+					
+		}
+		#magnifying-glass{
+		height:27px;
+		margin-top: 5px;
+		}
+		.search-section{
+		display: flex;
+		justify-content: flex-end;
+		}
+		
+		</style>
+		</head>
+		
+		<body>
+			<div class="top-navbar">
+				<img src="bbc-logo.png" alt="bbc-logo" id="logo">
+				<div id="signInDiv">
+					<img src="signinimage.png" alt="sign-inImage" id="signinimage">
+					<span id="SignInText">Sign In</span>
+					
+				</div>
+				<div id="bell">
+					<img src="wigglyline.png" alt="wigglyline border" id="wigglyline">
+					<img src="bell.png" alt="bellImage" id="bellimg">
+					</div>
+				<div class="topbar-section topbar-menu">
+					News
+				</div>
+				<div class="topbar-section topbar-menu">
+					Sports
+				</div>
+				<div class="topbar-section topbar-menu">
+					Weather
+				</div>
+				<div class="topbar-section topbar-menu">
+					iPlayer
+				</div>
+				<div class="topbar-section topbar-menu">
+					TV
+				</div>
+				<div class="topbar-section topbar-menu">
+					More
+				</div>
+				<div class="search-section">
+					<input id="search-box" type="text" value="Search">
+					<img src="magnifying-glass.png" alt="searchOption" id="magnifying-glass">
+					
+				</div>
+
 				
 			</div>
-			<div id="bell">
-				<img src="wigglyline.png" alt="wigglyline border" id="wigglyline">
-				<img src="bell.png" alt="bellImage" id="bellimg">
-				</div>
-			<div class="topbar-section topbar-menu">
-				News
-			</div>
-			<div class="topbar-section topbar-menu">
-				Sports
-			</div>
-			<div class="topbar-section topbar-menu">
-				Weather
-			</div>
-			<div class="topbar-section topbar-menu">
-				iPlayer
-			</div>
-			<div class="topbar-section topbar-menu">
-				TV
-			</div>
-			<div class="topbar-section topbar-menu">
-				More
-			</div>
-		</div>
-	
-	
-	
-	</body>
-</html>
+		
+		
+		
+		</body>
+	</html>
